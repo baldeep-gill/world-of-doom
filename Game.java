@@ -669,4 +669,9 @@ public class Game
             return true;  // signal that we want to quit
         }
     }
+
+    public static void main(String[] args) {
+        Game game = new Game();
+        game.play();
+    }
 }
